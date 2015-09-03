@@ -39,9 +39,10 @@
 
 }
 .l-famous {
-  width: 100%;
-  display: inline-block;
+  background-color: #524743;
   text-align: center;
+  display: inline-block;
+  width: 100%;;
 
 
   /* display: block; */
@@ -56,13 +57,14 @@
   width:20%;
   float:right;
   padding-left:1.2%;
-  border-left:1px solid black;;
+  border-left:1px solid black;;;
 }
 
 .l-overflow {
-  width:1060px;
   margin-left:-12.5%;
   margin-right:-12.5%;
+  width:1060px;
+  display:inline-block;
 
   /* overflow-y: visible; */;
 
