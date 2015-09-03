@@ -6,69 +6,70 @@
 {font-family: Lora}
 */
 
+.main-body {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
 .l-masthead {
   margin-top:50px;
-  margin-left:125px;
-  margin-right:160px;
 
 }
 .l-box-model {
-  width:450px;
-  padding:0;
-  float:left;
-  margin-left:100px;
+  width: 35%;
+  float: left;
+  margin-left: -10%;;
 
 }
 .l-feature {
 
+  width: 65%;
   position: relative;
-  width: 40%;
-  float: left;
+  float: right;
+  margin-right: -12.5%;;;
 }
 .l-staying-afloat {
-  float:left;
-  width:120px;
-  margin-left:180px;
+  width:15%;
+  padding:1%;
+  text-align:right;
 
 }
 .l-bullets {
-  width:800px;
-  display:inline-block;
+  width:70%;
+  padding:1%;
 
 }
 .l-famous {
-/* set section for middle of page, other elements positioned in relation to .famous */
-  width:960px;
-  display: block;
-  margin: 0 auto;
+  width: 100%;
   text-align: center;
+
+
+  /* display: block; */
 }
 .l-bottom-line {
-  width:720px;
+  width:75%;
   float:left;
-  margin-left:150px;
 
 }
 .l-transformers {
-  width:240px;
-  margin-right:150px;
+  width:25%;
   float:right;
-
 }
+
 .l-overflow {
   width:1060px;
-  margin:0 auto;
+  margin-left:-12.5%;
+  margin-right:-12.5%;;
+
+  /* overflow-y: visible; */;
 
 }
 .l-register {
-  margin-right:150px;
   width:960px;
 
 }
 .l-footer {
   width:960px;
-  margin-left:150px;
-  margin-right:150px;
 
 }
 
