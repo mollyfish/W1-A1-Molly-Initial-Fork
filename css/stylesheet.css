@@ -6,69 +6,73 @@
 {font-family: Lora}
 */
 
+.main-body {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
 .l-masthead {
-  margin-top:50px;
-  margin-left:125px;
-  margin-right:160px;
+  margin-top:50px;;
 
 }
 .l-box-model {
-  width:450px;
-  padding:0;
-  float:left;
-  margin-left:100px;
+  width: 35%;
+  float: left;
+  margin-left: -10%;;
 
 }
 .l-feature {
-
-  position: relative;
-  width: 40%;
-  float: left;
+  width: 65%;
+  float: right;
 }
 .l-staying-afloat {
+  text-align:right;
+  width:15%;
+  padding:1%;
   float:left;
-  width:120px;
-  margin-left:180px;
 
 }
 .l-bullets {
-  width:800px;
-  display:inline-block;
-
-}
-.l-famous {
-/* set section for middle of page, other elements positioned in relation to .famous */
-  width:960px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-}
-.l-bottom-line {
-  width:720px;
-  float:left;
-  margin-left:150px;
-
-}
-.l-transformers {
-  width:240px;
-  margin-right:150px;
+  width:70%;
+  padding:1%;
   float:right;
 
 }
+.l-famous {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+
+
+  /* display: block; */
+}
+.l-bottom-line {
+  width:73%;
+  float:left;
+  margin-right:2%;
+
+}
+.l-transformers {
+  width:20%;
+  float:right;
+  padding-left:1.2%;
+  border-left:1px solid black;;
+}
+
 .l-overflow {
   width:1060px;
-  margin:0 auto;
+  margin-left:-12.5%;
+  margin-right:-12.5%;
+
+  /* overflow-y: visible; */;
 
 }
 .l-register {
-  margin-right:150px;
   width:960px;
 
 }
 .l-footer {
   width:960px;
-  margin-left:150px;
-  margin-right:150px;
 
 }
 
@@ -91,7 +95,11 @@
   font-family: Merriweather;
 }
 
+/*Positioning*/
+.p-1 {
+  display: inline-block;;
 
+}
 
 /*
 CSS OFF top background #ccc9dc
