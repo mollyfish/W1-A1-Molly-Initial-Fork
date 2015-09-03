@@ -7,67 +7,93 @@
 */
 
 .l-masthead {
-  width: ;
-  margin: ;
-  position: absolute;
+  margin-top:50px;
+  margin-left:125px;
+  margin-right:160px;
+
 }
 .l-box-model {
-  width:;
-  padding:;
-  position: absolute;
+  width:450px;
+  padding:0;
+  float:left;
+  margin-left:100px;
+
 }
 .l-feature {
-  width:;
-  padding:;
-  position: absolute;
+
+  position: relative;
+  width: 40%;
+  float: left;
 }
 .l-staying-afloat {
-  width:;
-  padding:;
-  position: absolute;
+  float:left;
+  width:120px;
+  margin-left:180px;
+
 }
 .l-bullets {
-  width:;
-  padding:;
-  position: absolute; 
+  width:800px;
+  display:inline-block;
+
 }
 .l-famous {
 /* set section for middle of page, other elements positioned in relation to .famous */
-width:;
-margin: ;
-position: absolute;
+  width:960px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 .l-bottom-line {
-  width:;
-  padding:;
-  position: absolute;
+  width:720px;
+  float:left;
+  margin-left:150px;
+
 }
 .l-transformers {
-  width:;
-  padding:;
-  position: absolute;
+  width:240px;
+  margin-right:150px;
+  float:right;
+
 }
 .l-overflow {
-  width:;
-  padding:;
-  position: absolute;
+  width:1060px;
+  margin:0 auto;
+
 }
 .l-register {
-  width:;
-  padding:;
-  position: absolute;
+  margin-right:150px;
+  width:960px;
+
 }
 .l-footer {
-  width:;
-  padding:;
-  position: absolute;
+  width:960px;
+  margin-left:150px;
+  margin-right:150px;
+
 }
 
 
 
+/*=====FONTS=====*/
+.f-lato {
+  font-family: Lato, sans-serif;
+}
+
+.f-lora {
+  font-family: Lora, serif;
+}
+
+.f-oswald {
+  font-family: Oswald;
+}
+
+.f-merri {
+  font-family: Merriweather;
+}
 
 
 
+/*
 CSS OFF top background #ccc9dc
 CSS OFF bottom background #d6d3e6
 POS RELA font color #fdcd83
@@ -85,3 +111,7 @@ transformers light blue #699cc7
 overflow text #777c80
 2013CSSOFF font #5e5e5e
 Volume 3 font (route gregory, etc.) #b5b5b5
+
+CSS OFF top background #ccc9dc CSS OFF bottom background #d6d3e6 POS RELA font color #fdcd83 Box model font color #5b5966 volume 3 font #cccccc Staying afloat font #2f7b61 Lobsterman font #414141 List style font #a0762c A round up font #cac07b bullet list font #e2e2e2 displaying famous blocks top background #524743 displaying famous blocks bottom background #73625b transformers background #3c83bb transformers light blue #699cc7 overflow text #777c80 2013CSSOFF font #5e5e5e Volume 3 font (route gregory, etc.) #b5b5b5 .l-famous {
+}
+*/
