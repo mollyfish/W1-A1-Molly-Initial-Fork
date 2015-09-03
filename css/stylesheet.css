@@ -12,13 +12,13 @@
 }
 
 .l-masthead {
-  margin-top:50px;;
+  margin-top:50px;
 
 }
 .l-box-model {
   width: 35%;
   float: left;
-  margin-left: -10%;;
+  margin-left: -10%;
 
 }
 .l-feature {
@@ -39,9 +39,11 @@
 
 }
 .l-famous {
-  width: 100%;
-  display: inline-block;
-  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+  padding-bottom: 1%;
+  padding-top: 1%;
 
 
   /* display: block; */
@@ -50,21 +52,21 @@
   width:73%;
   float:left;
   margin-right:2%;
+  margin-top:-2%;
 
 }
 .l-transformers {
   width:20%;
   float:right;
   padding-left:1.2%;
-  border-left:1px solid black;;
+  border-left:1px solid black;
 }
 
 .l-overflow {
-  width:1060px;
   margin-left:-12.5%;
   margin-right:-12.5%;
-
-  /* overflow-y: visible; */;
+  width:1060px;
+  display:inline-block;
 
 }
 .l-register {
@@ -76,7 +78,28 @@
 
 }
 
+/*=====STYLES=====*/
+.famous {
+  color: white;
+  background: -webkit-linear-gradient(#524743, #73625b);
+}
 
+.bottom-line h2 {
+    font-stretch: extra-expanded;
+    font-size: 4.8em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-bottom: 20px solid black;
+}
+
+.bottom-line h3 {
+    font-weight: 400;
+    font-size: 2.3em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    border-bottom: 5px solid black;
+}
 
 /*=====FONTS=====*/
 .f-lato {
@@ -97,10 +120,40 @@
 
 /*Positioning*/
 .p-1 {
-  display: inline-block;;
+  display: inline-block;
 
 }
 
+.p-2 {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.p2 h2 {
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.p-3 {
+  padding-left: 3%;
+  padding-right: 3%;
+  font-weight: 100;
+  font-size: 1.6em;
+}
+
+.p-map {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  margin-bottom: .4%;
+}
+
+.p-abbey-road {
+  margin-top: 2%;
+  margin-left: 0px;
+}
 /*
 CSS OFF top background #ccc9dc
 CSS OFF bottom background #d6d3e6
@@ -123,3 +176,6 @@ Volume 3 font (route gregory, etc.) #b5b5b5
 CSS OFF top background #ccc9dc CSS OFF bottom background #d6d3e6 POS RELA font color #fdcd83 Box model font color #5b5966 volume 3 font #cccccc Staying afloat font #2f7b61 Lobsterman font #414141 List style font #a0762c A round up font #cac07b bullet list font #e2e2e2 displaying famous blocks top background #524743 displaying famous blocks bottom background #73625b transformers background #3c83bb transformers light blue #699cc7 overflow text #777c80 2013CSSOFF font #5e5e5e Volume 3 font (route gregory, etc.) #b5b5b5 .l-famous {
 }
 */
+
+.p-3 p p {
+}
