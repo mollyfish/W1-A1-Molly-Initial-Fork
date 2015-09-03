@@ -42,6 +42,10 @@
   margin-left: 0px;
   margin-right: 0px;
   position: relative;
+  background: -webkit-linear-gradient(#524743, #73625b);
+  padding-bottom: 1%;
+  padding-top: 1%;
+  color: white;
 
 
   /* display: block; */
@@ -50,6 +54,7 @@
   width:73%;
   float:left;
   margin-right:2%;
+  margin-top:-2%;
 
 }
 .l-transformers {
@@ -101,22 +106,30 @@
 }
 
 .p-2 {
-  background-color: #524743;
+  /*background-color: #524743;*/
   width: 100%;
   position: relative;
+  text-align: center;
+}
 
+.p-3 {
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 1.2em;
+  font-weight: 100;
 }
 
 .p-map {
   position: absolute;
   right: 0%;
   bottom: 0%;
+  margin-bottom: .4%;
 }
 
 .p-abbey-road {
   margin-right: 0px;
   margin-left: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 0%;
 }
 /*
 CSS OFF top background #ccc9dc
