@@ -101,6 +101,11 @@
     border-bottom: 5px solid black;
 }
 
+.bottom-line .f-merri {
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
 /*=====FONTS=====*/
 .f-lato {
   font-family: Lato, sans-serif;
@@ -147,12 +152,17 @@
   position: absolute;
   right: 0%;
   bottom: 0%;
-  margin-bottom: .4%;
+  margin-bottom: .7%;
 }
 
 .p-abbey-road {
-  margin-top: 2%;
-  margin-left: 0px;
+  margin: 0%;
+  height: auto;
+}
+
+.p-abbey-road img:first-child {
+  height: auto;
+  max-width: 100%;
 }
 /*
 CSS OFF top background #ccc9dc
