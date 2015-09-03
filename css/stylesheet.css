@@ -6,3 +6,82 @@
 {font-family: Lora}
 */
 
+.l-masthead {
+  width: ;
+  margin: ;
+  position: absolute;
+}
+.l-box-model {
+  width:;
+  padding:;
+  position: absolute;
+}
+.l-feature {
+  width:;
+  padding:;
+  position: absolute;
+}
+.l-staying-afloat {
+  width:;
+  padding:;
+  position: absolute;
+}
+.l-bullets {
+  width:;
+  padding:;
+  position: absolute; 
+}
+.l-famous {
+/* set section for middle of page, other elements positioned in relation to .famous */
+width:;
+margin: ;
+position: absolute;
+}
+.l-bottom-line {
+  width:;
+  padding:;
+  position: absolute;
+}
+.l-transformers {
+  width:;
+  padding:;
+  position: absolute;
+}
+.l-overflow {
+  width:;
+  padding:;
+  position: absolute;
+}
+.l-register {
+  width:;
+  padding:;
+  position: absolute;
+}
+.l-footer {
+  width:;
+  padding:;
+  position: absolute;
+}
+
+
+
+
+
+
+CSS OFF top background #ccc9dc
+CSS OFF bottom background #d6d3e6
+POS RELA font color #fdcd83
+Box model font color #5b5966
+volume 3 font #cccccc
+Staying afloat font #2f7b61
+Lobsterman font #414141
+List style font #a0762c
+A round up font #cac07b
+bullet list font #e2e2e2
+displaying famous blocks top background #524743
+displaying famous blocks bottom background #73625b
+transformers background #3c83bb
+transformers light blue #699cc7
+overflow text #777c80
+2013CSSOFF font #5e5e5e
+Volume 3 font (route gregory, etc.) #b5b5b5
