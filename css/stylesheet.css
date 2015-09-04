@@ -259,7 +259,7 @@ li {
 
 .transformers {
   background-color: #3c83bb;
-  border-top: 10px solid white;;
+  border-top: 20px solid white;;
 }
 
 .p-transformers img:first-child {
@@ -469,6 +469,8 @@ padding-right: 10%;
 
 .p-faces img:first-child {
   max-width: 115%;
+  z-index: -100;
+  position: relative;
 }
 
 .p-transformers {
