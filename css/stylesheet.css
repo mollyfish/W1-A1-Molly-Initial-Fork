@@ -41,14 +41,30 @@
   width:15%;
   padding:1%;
   float:left;
+  display: inline-block;
+}
+
+.l-staying-afloat h2 {
+    color: #2f7b61;
+}
 
 }
-.l-bullets {
+.l-bullets div{
   width:70%;
-  padding:1%;
-  float:right;
+  padding-left:50px;
+  position: relative;
 
 }
+
+.l-bullets h2 {
+color: #a0762c;
+font
+}
+
+.l-bullets ul {
+color: #c2c2c2;
+}
+
 .l-famous {
   margin-left: 0px;
   margin-right: 0px;
@@ -100,13 +116,19 @@ ul {
   display: inline;
   position: absolute;
   padding: 0;
-  top: 50%;
+  top: 40%;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+
 }
 
 li {
   display: inline-block;
-  padding-right: 4%;
-  padding-left: 4%;
+  padding-right: 3%;
+  padding-left: 3%;
+  border-left: solid 1px;
+  border-right: solid 1px;
 }
 
 .not-aria {
@@ -193,6 +215,7 @@ li {
 
 .p-bullets img:first-child {
   max-width: 100%;
+  margin-left: 2.5%;
 }
 
 .famous {
