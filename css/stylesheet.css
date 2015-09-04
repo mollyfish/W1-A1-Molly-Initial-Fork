@@ -91,6 +91,7 @@ color: #c2c2c2;
   margin-right:-12.5%;
   width:1060px;
   display:inline-block;
+  margin-top:-6%;
 }
 
 .l-register {
@@ -128,6 +129,10 @@ li {
   padding-left: 3%;
   border-left: solid 1px;
   border-right: solid 1px;
+}
+
+.not-aria {
+  visibility: hidden;
 }
 
 .masthead-bg {
@@ -241,7 +246,7 @@ li {
 
 .transformers {
   background-color: #3c83bb;
-  border-top: 10px solid white;
+  border-top: 10px solid white;;
 }
 
 .p-transformers img:first-child {
@@ -259,6 +264,115 @@ li {
   font-size: 1.4em;
   margin-top: 1%;
   padding-left: 18%;
+}
+
+.p-4 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.p-4 section:first-child {
+  color: white;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.p-4 section:first-child h3 {
+  font-size: x-large;
+  line-height: 0%;
+  margin-bottom: 0%;
+}
+
+.p-4 section:first-child p:nth-child(2) {
+  border-bottom: 10px solid rgba(255,255,255,0.4);
+  padding-bottom: 4%;
+}
+
+.p-4 section:nth-child(2) {
+  color: white;
+}
+
+.p-4 section:nth-child(2) p:first-child {
+  color: rgba(255,255,255,0.4);
+  font-size: 1.2em;
+  width: 50%;
+  display: inline-block;
+}
+
+.p-4 section:nth-child(2) p:nth-child(2) {
+  color: white;
+  font-size: 2.8em;
+  width: 30%;
+  display: inline-block;
+}
+
+.p-overflow section {
+  margin-top: -21%;
+  font-size: .9em;
+  font-style: italic;
+}
+
+.p-overflow p:nth-child(2) {
+  /* Safari */
+
+/* Firefox */
+-moz-transform: rotate(2deg);
+
+/* IE */
+-ms-transform: rotate(2deg);
+
+/* Opera */
+-o-transform: rotate(2deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+padding-top: 2%;
+padding-bottom: 2%;
+text-align: right;
+-webkit-transform: rotate(2deg);
+padding-left: 30%;
+margin-right: -10%;
+}
+
+.p-overflow p:nth-child(3) {
+  /* Safari */
+-webkit-transform: rotate(-.5deg);
+
+/* Firefox */
+-moz-transform: rotate(-.5deg);
+
+/* IE */
+-ms-transform: rotate(-.5deg);
+
+/* Opera */
+-o-transform: rotate(-.5deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+padding-top: 2%;
+padding-bottom: 2%;
+padding-right: 25%;
+}
+
+.p-overflow p:nth-child(4) {
+  /* Safari */
+-webkit-transform: rotate(1deg);
+
+/* Firefox */
+-moz-transform: rotate(1deg);
+
+/* IE */
+-ms-transform: rotate(1deg);
+
+/* Opera */
+-o-transform: rotate(1deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+padding-top: 2%;
+padding-bottom: 2%;
+padding-left: 15%;
+padding-right: 10%;
 }
 
 /*=====FONTS=====*/
@@ -332,36 +446,23 @@ li {
   z-index: 200;
   position: relative;
   margin-left: 10%;
-  margin-right: 10%;;
+  margin-right: 10%;
 }
 
 .p-ticket-notch {
-    margin-bottom: -10%;
-    margin-left: 42%;
-    margin-right: 42%;
+  margin-bottom: -10%;
+  margin-left: 42%;
+  margin-right: 42%;
 }
 
-/*
-CSS OFF top background #ccc9dc
-CSS OFF bottom background #d6d3e6
-POS RELA font color #fdcd83
-Box model font color #5b5966
-volume 3 font #cccccc
-Staying afloat font #2f7b61
-Lobsterman font #414141
-List style font #a0762c
-A round up font #cac07b
-bullet list font #e2e2e2
-displaying famous blocks top background #524743
-displaying famous blocks bottom background #73625b
-transformers background #3c83bb
-transformers light blue #699cc7
-overflow text #777c80
-2013CSSOFF font #5e5e5e
-Volume 3 font (route gregory, etc.) #b5b5b5
-
-CSS OFF top background #ccc9dc CSS OFF bottom background #d6d3e6 POS RELA font color #fdcd83 Box model font color #5b5966 volume 3 font #cccccc Staying afloat font #2f7b61 Lobsterman font #414141 List style font #a0762c A round up font #cac07b bullet list font #e2e2e2 displaying famous blocks top background #524743 displaying famous blocks bottom background #73625b transformers background #3c83bb transformers light blue #699cc7 overflow text #777c80 2013CSSOFF font #5e5e5e Volume 3 font (route gregory, etc.) #b5b5b5 .l-famous {
+.l-footer section:first-child {
+  display: inline-block;
+  width:45%;
 }
-*/
 
-
+.l-footer section:nth-child(2) {
+  display: inline-block;
+  text-align: right;
+  width:45%;
+  padding-left:4%;
+}
